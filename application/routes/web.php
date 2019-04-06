@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/',"app\IndexController@index");
+
 Route::group(['prefix' => 'app'], function () {
     Route::get('/','app\IndexController@index');
 });

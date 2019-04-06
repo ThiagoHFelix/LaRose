@@ -6232,6 +6232,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/bootstrap/scss/bootstrap.scss":
+/*!****************************************************!*\
+  !*** ./node_modules/bootstrap/scss/bootstrap.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./node_modules/is-buffer/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/is-buffer/index.js ***!
@@ -36739,6 +36750,17 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/startbootstrap-sb-admin-2/scss/sb-admin-2.scss":
+/*!*********************************************************************!*\
+  !*** ./node_modules/startbootstrap-sb-admin-2/scss/sb-admin-2.scss ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./node_modules/timers-browserify/main.js":
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
@@ -49174,14 +49196,16 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./node_modules/startbootstrap-sb-admin-2/scss/sb-admin-2.scss ./node_modules/bootstrap/scss/bootstrap.scss ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/thiagofelix/Projects/LaRose/application/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/thiagofelix/Projects/LaRose/application/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/thiagofelix/Projects/LaRose/application/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/thiagofelix/Projects/LaRose/application/node_modules/startbootstrap-sb-admin-2/scss/sb-admin-2.scss */"./node_modules/startbootstrap-sb-admin-2/scss/sb-admin-2.scss");
+module.exports = __webpack_require__(/*! /home/thiagofelix/Projects/LaRose/application/node_modules/bootstrap/scss/bootstrap.scss */"./node_modules/bootstrap/scss/bootstrap.scss");
 
 
 /***/ })
