@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" />
+        <link type="text/css" rel="stylesheet" href="{{ asset('css/app.css') }}" />
         <link type="text/css" rel="stylesheet" href="{{ asset('css/sb-admin-2.css') }}" />
         <link type="text/css" rel="stylesheet" href="{{ asset('css/fontawesome.css') }}" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">

@@ -9,6 +9,7 @@
 
 @section('content')
 
+<div class="bg-shadow"></div>
 <div class="text-center">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
@@ -24,7 +25,6 @@
         <main role="main" class="inner cover mt-5">
 
 
-
             <div class="row">
                 <div class="col-12">
                     <h1 class="cover-heading mb-4">Conheça nossos serviços.</h1>
@@ -36,7 +36,7 @@
 
                 <div class="col">
 
-                    <div class="card bg-dark text-white mb-2 border-0" style="width: 18rem;">
+                    <div class="card text-white mb-2 border-0" style="width: 18rem;">
                         <div class="card-title p-3 text-light" style="font-size:80pt;">  <i class="fas fa-5 fa-cut"></i> </div>
                         <div class="card-body">
                             <h5 class="card-title">Cabelo</h5>
@@ -49,7 +49,7 @@
 
                 <div class="col">
 
-                    <div class="card bg-dark text-white border-0 mb-2" style="width: 18rem;">
+                    <div class="card text-white border-0 mb-2" style="width: 18rem;">
                         <div class="card-title p-3 text-light" style="font-size:80pt;">  <i class="far fa-smile-wink"></i> </div>
                         <div class="card-body">
                             <h5 class="card-title">Maquiagem</h5>
@@ -63,7 +63,7 @@
 
                 <div class="col">
 
-                    <div class="card bg-dark text-white border-0 mb-2" style="width: 18rem;">
+                    <div class="card text-white border-0 mb-2" style="width: 18rem;">
                         <div class="card-title p-3 text-light" style="font-size:80pt;"> <i class="fas fa-hands"></i> </div>
                         <div class="card-body">
                             <h5 class="card-title">Manicure</h5>
@@ -77,7 +77,7 @@
 
             <div class="row">
                 <div class="col-6 mx-auto mt-3">
-                    <a href="/login" class="btn btn-secondary btn-lg bg-dark border-0 text-white">Agendar
+                    <a href="/login" class="btn horario btn-lg text-white">Agendar
                         Horário</a>
                 </div>
             </div>
@@ -96,6 +96,7 @@
 
     </div>
 </div>
+
 
 @endsection
 

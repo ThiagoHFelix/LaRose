@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/',"app\IndexController@index");
+Route::get('/',function(){ return redirect()->route('login'); });
 
 Route::group(['prefix' => 'app'], function () {
     Route::get('/','app\IndexController@index');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
