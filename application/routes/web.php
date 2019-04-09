@@ -20,3 +20,4 @@ Route::group(['prefix' => 'app'], function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'app\DashboardController@index')->name('dashboard');

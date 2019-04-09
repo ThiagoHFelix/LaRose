@@ -18,7 +18,7 @@
         @show
 
     </head>
-    <body>
+    <body class="sidebar-toggled">
         @section('sidebar')
            
         @show
@@ -31,10 +31,10 @@
 
         @section('scripts')
             <script src="{{ asset('js/app.js') }}"> </script>
-            <script src="{{ asset('js/bootstrap.js') }}"> </script> 
-            <script src="{{ asset('js/sb-admin-2.js') }}"> </script>
-            <script src="{{ asset('js/jquery_easing.js') }}"> </script>
-            <script src="{{ asset('js/jquery.js') }}"> </script>
+          <!-- <script src="{{ asset('js/bootstrap.js') }}"> </script> -->
+            <script src="{{ asset('js/sb-admin-2.js') }}"> </script> 
+          <!--  <script src="{{ asset('js/jquery_easing.js') }}"> </script> -->
+          <!-- <script src="{{ asset('js/jquery.js') }}"> </script> -->
             
             
            
