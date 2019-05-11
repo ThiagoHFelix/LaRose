@@ -1,0 +1,4 @@
+div.alert li { list-style: none !important; }
+body { background: url('/img/bg-1.jpg') no-repeat !important; background-position: center !important; background-attachment: fixed;  }
+.shadow { background: rgba(0,0,0,0.2) !important; height:100% !important; width: 100% !important; position:fixed !important; top:0px; }
+.container { z-index: 2 !important; }

@@ -10,8 +10,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+Vue.use(BootstrapVue)
 
 /**
  * The following block of code may be used to automatically register your
@@ -26,8 +25,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
-Vue.use(BootstrapVue);
 
+// app.js
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

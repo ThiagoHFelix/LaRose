@@ -11,13 +11,19 @@
 |
 */
 
-Route::get('/',function(){ return redirect()->route('login'); });
 
-Route::group(['prefix' => 'app'], function () {
-    Route::get('/','app\IndexController@index');
+Route::middleware("redir.notauth")->group(function(){
+   Route::any("/home","Application\HomeController@index")->name("home");
+   Route::any("/logout","Application\LoginController@logout")->name("logout");
 });
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/dashboard', 'app\DashboardController@index')->name('dashboard');
+Route::middleware("redir.auth")->group(function(){
+   Route::get('/',function(){
+      return redirect('login');
+   } );
+   Route::post('/recuperar', "Application\LoginController@index")->name('recuperar_senha');
+   Route::any('/cadastro', "Application\CadastrousuarioController@index")->name('cadastro_usuario');
+   Route::any('/login', "Application\LoginController@index")->name('login');
+   Route::post('/makeLogin', "Application\LoginController@makeLogin");
+   Route::post('/makeCadastro', "Application\CadastrousuarioController@makeCadastro")->name('make_cadastro');
+});

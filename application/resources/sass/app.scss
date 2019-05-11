@@ -1,4 +1,6 @@
 
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
@@ -12,3 +14,7 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.bg-lightgray { background:#efefef !important; }
+
+@import "node_modules/startbootstrap-sb-admin-2/scss/sb-admin-2.scss";
