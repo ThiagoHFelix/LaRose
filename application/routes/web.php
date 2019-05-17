@@ -13,8 +13,12 @@
 
 
 Route::middleware("redir.notauth")->group(function(){
-   Route::any("/home","Application\HomeController@index")->name("home");
+   Route::get("/home","Application\HomeController@index")->name("home");
    Route::any("/logout","Application\LoginController@logout")->name("logout");
+});
+
+Route::middleware(["redir.notauth"])->prefix('adm')->group(function(){
+   Route::get("/cadastrar","Adm\AdmController@cadastrar")->name("adm.cadastrar");
 });
 
 Route::middleware("redir.auth")->group(function(){

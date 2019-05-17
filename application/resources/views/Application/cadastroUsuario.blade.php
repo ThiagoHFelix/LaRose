@@ -49,7 +49,7 @@
                             <div class="alert alert-warning text-center" role="alert">
 
                                 @foreach($errors->all() as $error)
-                                <li>{{ $error }}</li>
+                                <li class="text-center">{{ $error }}</li>
                                 @endforeach
 
                             </div>
@@ -76,7 +76,7 @@
                             @endif
                             @endif
 
-                            <button type="subimit" class="btn btn-primary btn-block">
+                            <button type="subimit" class="btn btn-dark btn-block">
                                 Cadastrar
                             </button>
 
