@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -24,7 +23,7 @@ Vue.use(BootstrapVue)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
+Vue.component('login-larose', require('.components/login.vue').default);
 
 // app.js
 import 'bootstrap/dist/css/bootstrap.css'
@@ -39,5 +38,3 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 const app = new Vue({
     el: '#app'
 });
-
-
