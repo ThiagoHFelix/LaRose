@@ -10,6 +10,6 @@
 
 <div class="shadow"></div>
 
-<login-larose></login-larose>
+<login-larose v-bind:isLoading="isLoading"></login-larose>
 
 @endsection
